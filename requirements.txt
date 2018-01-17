@@ -1,2 +1,3 @@
 wheel>=0.22
 lenstronomy
+corner

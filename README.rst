@@ -2,17 +2,19 @@
 lenstronomy_extensions
 =============================
 
-.. image:: https://badge.fury.io/py/lenstronomy_extensions.png
-    :target: http://badge.fury.io/py/lenstronomy_extensions
-
-.. image:: https://travis-ci.org/sibirrer/lenstronomy_extensions.png?branch=master
-    :target: https://travis-ci.org/sibirrer/lenstronomy_extensions
 
 Deploys lenstronomy applications, examples and analysis scripts for lens modelling
+
+Acompanies lenstronomy release version 0.0.2. **lenstronomy** is available through the pypi packaging index:
+>>> pip install lenstronomy
 
 
 Features
 --------
 
-* TODO
+* Notebook to simulate and model lenses
+* Notebook to solve the lens equation
+* Notebook to model line-of-sight integrated cosmic shear
+* various pre-made plotting routines to analyse the outputs of the lenstronomy core modules
+* further more specific application examples of the lenstronomy software package
 
