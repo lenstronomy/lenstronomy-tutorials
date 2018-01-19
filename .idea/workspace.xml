@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Data/Galaxies/ngc1300.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Data/PSF_TinyTim/psf_example.fits" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Plots/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/test_notebooks.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output_plots.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="output_plots.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="140" column="39" lean-forward="false" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+            <state relative-caret-position="65">
+              <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -77,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,10 +145,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="626" />
-    <option name="y" value="54" />
-    <option name="width" value="1183" />
-    <option name="height" value="925" />
+    <option name="x" value="168" />
+    <option name="y" value="23" />
+    <option name="width" value="870" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,36 +176,7 @@
             <path>
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Galaxies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="PSF_TinyTim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="CosmoSampling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
@@ -288,19 +251,28 @@
       <option name="presentableId" value="Default" />
       <updated>1515723544509</updated>
     </task>
+    <task id="LOCAL-00001" summary="first test notebooks in place">
+      <created>1516154059354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516154059354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="54" width="1183" height="925" extended-state="0" />
+    <frame x="168" y="23" width="870" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24526678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33568904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27108434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -314,6 +286,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first test notebooks in place" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test notebooks in place" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -405,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="140" column="39" lean-forward="false" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_sims.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -432,8 +398,18 @@
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
