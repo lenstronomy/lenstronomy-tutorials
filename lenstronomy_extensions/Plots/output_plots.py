@@ -11,6 +11,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 from lenstronomy.LensModel.lens_model_extensions import LensModelExtensions
 from lenstronomy.ImSim.image_model import ImageModel
+from lenstronomy.Analysis.lens_analysis import LensAnalysis
 from lenstronomy.Data.coord_transforms import Coordinates
 
 
@@ -130,6 +131,7 @@ class LensModelPlot(object):
         self._x_grid, self._y_grid = kwargs_data['x_coords'], kwargs_data['y_coords']
 
         self._imageModel = ImageModel(kwargs_options=kwargs_options, kwargs_data=kwargs_data, kwargs_psf=kwargs_psf)
+        self._analysis = LensAnalysis(kwargs_options, kwargs_data)
         self._lensModel = LensModelExtensions(lens_model_list=kwargs_options['lens_model_list'], foreground_shear=kwargs_options.get("foreground_shear", False))
         self._ra_crit_list, self._dec_crit_list, self._ra_caustic_list, self._dec_caustic_list = self._lensModel.critical_curve_caustics(kwargs_lens, kwargs_else, compute_window=self._frame_size, grid_scale=0.01)
 
@@ -142,7 +144,7 @@ class LensModelPlot(object):
         self._model = model
         self._data = kwargs_data['image_data']
         self._cov_param = cov_param
-        self._norm_residuals = self._imageModel.Data.reduced_residuals(model, error_map=error_map)
+        self._norm_residuals = self._imageModel.reduced_residuals(model, error_map=error_map)
         self._reduced_x2 = self._imageModel.Data.reduced_chi2(model, error_map=error_map)
         log_model = np.log10(model)
         log_model[np.isnan(log_model)] = -5
@@ -326,7 +328,7 @@ class LensModelPlot(object):
         y_grid_source += y_center
         coords_source = Coordinates(self._Mpix2coord * deltaPix_source / self._deltaPix, ra_at_xy_0=x_grid_source[0],
                                     dec_at_xy_0=y_grid_source[0])
-        error_map_source = self._imageModel.error_map_source(self._kwargs_source, x_grid_source, y_grid_source, self._cov_param)
+        error_map_source = self._analysis.error_map_source(self._kwargs_source, x_grid_source, y_grid_source, self._cov_param)
         error_map_source = util.array2image(error_map_source)
         d_s = numPix * deltaPix_source
         im = ax.matshow(error_map_source, origin='lower', extent=[0, d_s, 0, d_s],
