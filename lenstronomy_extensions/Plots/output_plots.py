@@ -13,6 +13,7 @@ from lenstronomy.LensModel.lens_model_extensions import LensModelExtensions
 from lenstronomy.ImSim.image_model import ImageModel
 from lenstronomy.Analysis.lens_analysis import LensAnalysis
 from lenstronomy.Data.coord_transforms import Coordinates
+from lenstronomy.Data.imaging_data import Data
 
 
 def text_description(ax, d, text, color='w', backgroundcolor='k', flipped=False):
@@ -120,20 +121,21 @@ class LensModelPlot(object):
         cmap.set_under('k')
         self._cmap = cmap
         self._arrow_size = arrow_size
-
+        data = Data(kwargs_data)
+        self._coords = data._coords
         nx, ny = np.shape(kwargs_data['image_data'])
         Mpix2coord = kwargs_data['transform_pix2angle']
         self._Mpix2coord = Mpix2coord
-        self._coords = Coordinates(Mpix2coord, ra_at_xy_0=kwargs_data['ra_at_xy_0'], dec_at_xy_0=kwargs_data['dec_at_xy_0'])
+
         self._deltaPix = self._coords.pixel_size
         self._frame_size = self._deltaPix * nx
 
-        self._x_grid, self._y_grid = kwargs_data['x_coords'], kwargs_data['y_coords']
+        self._x_grid, self._y_grid = data.coordinates
 
         self._imageModel = ImageModel(kwargs_options=kwargs_options, kwargs_data=kwargs_data, kwargs_psf=kwargs_psf)
-        self._analysis = LensAnalysis(kwargs_options, kwargs_data)
-        self._lensModel = LensModelExtensions(lens_model_list=kwargs_options['lens_model_list'], foreground_shear=kwargs_options.get("foreground_shear", False))
-        self._ra_crit_list, self._dec_crit_list, self._ra_caustic_list, self._dec_caustic_list = self._lensModel.critical_curve_caustics(kwargs_lens, kwargs_else, compute_window=self._frame_size, grid_scale=0.01)
+        self._analysis = LensAnalysis(kwargs_options)
+        self._lensModel = LensModelExtensions(lens_model_list=kwargs_options['lens_model_list'])
+        self._ra_crit_list, self._dec_crit_list, self._ra_caustic_list, self._dec_caustic_list = self._lensModel.critical_curve_caustics(kwargs_lens, compute_window=self._frame_size, grid_scale=0.01)
 
         model, error_map, cov_param, param = self._imageModel.image_linear_solve(kwargs_lens, kwargs_source,
                                                                       kwargs_lens_light, kwargs_else, inv_bool=True)
@@ -145,7 +147,7 @@ class LensModelPlot(object):
         self._data = kwargs_data['image_data']
         self._cov_param = cov_param
         self._norm_residuals = self._imageModel.reduced_residuals(model, error_map=error_map)
-        self._reduced_x2 = self._imageModel.Data.reduced_chi2(model, error_map=error_map)
+        self._reduced_x2 = self._imageModel.reduced_chi2(model, error_map=error_map)
         log_model = np.log10(model)
         log_model[np.isnan(log_model)] = -5
         self._v_min_default = max(np.min(log_model), -5)
@@ -218,7 +220,7 @@ class LensModelPlot(object):
         :param kwargs_else:
         :return:
         """
-        kappa_result = util.array2image(self._lensModel.kappa(self._x_grid, self._y_grid, self._kwargs_lens, self._kwargs_else))
+        kappa_result = util.array2image(self._lensModel.kappa(self._x_grid, self._y_grid, self._kwargs_lens))
         im = ax.matshow(np.log10(kappa_result), origin='lower',
                         extent=[0, self._frame_size, 0, self._frame_size], cmap=self._cmap, vmin=v_min, vmax=v_max)
         ax.get_xaxis().set_visible(False)
@@ -353,7 +355,7 @@ class LensModelPlot(object):
         :param ax:
         :return:
         """
-        mag_result = util.array2image(self._lensModel.magnification(self._x_grid, self._y_grid, self._kwargs_lens, self._kwargs_else))
+        mag_result = util.array2image(self._lensModel.magnification(self._x_grid, self._y_grid, self._kwargs_lens))
         im = ax.matshow(mag_result, origin='lower', extent=[0, self._frame_size, 0, self._frame_size],
                         vmin=v_min, vmax=v_max, cmap=self._cmap, alpha=0.5)
         ax.get_xaxis().set_visible(False)
@@ -381,7 +383,7 @@ class LensModelPlot(object):
         :return:
         """
 
-        alpha1, alpha2 = self._lensModel.alpha(self._x_grid, self._y_grid, self._kwargs_lens, self._kwargs_else)
+        alpha1, alpha2 = self._lensModel.alpha(self._x_grid, self._y_grid, self._kwargs_lens)
         alpha1 = self._imageModel.Data.array2image(alpha1)
         alpha2 = self._imageModel.Data.array2image(alpha2)
         if axis == 0:
