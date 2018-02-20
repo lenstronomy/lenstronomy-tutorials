@@ -103,6 +103,53 @@ def source_position_plot(ax, coords, kwargs_source):
     return ax
 
 
+def lens_model_plot(ax, lens_model_list, kwargs_lens, numPix, deltaPix, sourcePos_x=0, sourcePos_y=0, point_source=False):
+    """
+    plots a lens model (convergence) and the critical curves and caustics
+
+    :param ax:
+    :param kwargs_lens:
+    :param numPix:
+    :param deltaPix:
+    :return:
+    """
+    from lenstronomy.SimulationAPI.simulations import Simulation
+    simAPI = Simulation()
+    kwargs_data = simAPI.data_configure(numPix, deltaPix)
+    data = Data(kwargs_data)
+    _frame_size = numPix * deltaPix
+    _coords = data._coords
+    x_grid, y_grid = data.coordinates
+    lensModel = LensModelExtensions(lens_model_list=lens_model_list)
+    ra_crit_list, dec_crit_list, ra_caustic_list, dec_caustic_list = lensModel.critical_curve_caustics(
+        kwargs_lens, compute_window=_frame_size, grid_scale=0.005)
+    kappa_result = util.array2image(lensModel.kappa(x_grid, y_grid, kwargs_lens))
+    im = ax.matshow(np.log10(kappa_result), origin='lower',
+                    extent=[0, _frame_size, 0, _frame_size], cmap='Greys') #, cmap=self._cmap, vmin=v_min, vmax=v_max)
+
+    plot_line_set(ax, _coords, ra_caustic_list, dec_caustic_list, color='g')
+    plot_line_set(ax, _coords, ra_crit_list, dec_crit_list, color='r')
+    if point_source:
+        from lenstronomy.LensModel.Solver.lens_equation_solver import LensEquationSolver
+        solver = LensEquationSolver(lensModel)
+        theta_x, theta_y = solver.image_position_from_source(sourcePos_x, sourcePos_y, kwargs_lens)
+        mag_images = lensModel.magnification(theta_x, theta_y, kwargs_lens)
+        x_image, y_image = _coords.map_coord2pix(theta_x, theta_y)
+        abc_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
+        for i in range(len(x_image)):
+            x_ = (x_image[i] + 0.5) * deltaPix
+            y_ = (y_image[i] + 0.5) * deltaPix
+            ax.plot(x_, y_, 'dk', markersize=4*(1 + np.log(np.abs(mag_images[i]))), alpha=0.5)
+            #ax.text(x_, y_, abc_list[i], fontsize=20, color='k')
+        x_source, y_source = _coords.map_coord2pix(sourcePos_x, sourcePos_y)
+        ax.plot((x_source + 0.5) * deltaPix, (y_source + 0.5) * deltaPix, '*k', markersize=10)
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
+    ax.autoscale(False)
+    #image_position_plot(ax, _coords, self._kwargs_else)
+    #source_position_plot(ax, self._coords, self._kwargs_source)
+    return ax
+
 class LensModelPlot(object):
     """
     class that manages the summary plots of a lens model
