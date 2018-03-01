@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Plots/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +22,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="0">
               <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nfwT.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py">
+      <file leaf-file-name="usage.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/usage.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,11 +98,13 @@
         <option value="$PROJECT_DIR$/../lenstronomy/lenstronomy/SimulationAPI/simulations.py" />
         <option value="$PROJECT_DIR$/lenstronomy_extensions/Plots/output_plots.py" />
         <option value="$PROJECT_DIR$/lenstronomy_extensions/Scripts/run_sequence.py" />
+        <option value="$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="106" />
+    <option name="y" value="329" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -136,6 +136,11 @@
             <path>
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -143,24 +148,6 @@
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
               <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Profiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
@@ -264,11 +251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519168537090</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="notebooks compatible with lenstronomy 0.1.0">
+      <created>1519622069280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519622069280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1238" height="777" extended-state="6" />
+    <frame x="106" y="329" width="1238" height="777" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23336072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -298,7 +292,8 @@
     <MESSAGE value="updated to lenstronomy definitions" />
     <MESSAGE value="adopted to new lenstronomy version" />
     <MESSAGE value="startup gide for new lenstronomy release" />
-    <option name="LAST_COMMIT_MESSAGE" value="startup gide for new lenstronomy release" />
+    <MESSAGE value="notebooks compatible with lenstronomy 0.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebooks compatible with lenstronomy 0.1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -438,6 +433,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,6 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="83" column="8" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="0">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
@@ -539,14 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8685">
           <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="621" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Util/initialise_from_chain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -561,8 +550,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="63">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Util/initialise_from_chain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/usage.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

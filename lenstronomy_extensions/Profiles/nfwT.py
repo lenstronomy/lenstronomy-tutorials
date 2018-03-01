@@ -1,4 +1,4 @@
-__author__ = 'sibirrer'
+__author__ = 'sibirrer, dgilman'
 
 # this file contains a class to compute the Navaro-Frank-White function in mass/kappa space
 # the potential therefore is its integral
