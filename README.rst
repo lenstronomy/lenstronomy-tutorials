@@ -6,7 +6,7 @@ lenstronomy_extensions
 Deploys lenstronomy applications, examples and analysis scripts for lens modelling
 
 Acompanies lenstronomy release version 0.0.2. **lenstronomy** is available through the pypi packaging index:
->>> pip install lenstronomy
+>>> pip install lenstronomy --user
 
 
 Features
