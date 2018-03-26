@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_job.sh" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" />
@@ -53,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_job.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_job.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="124" column="3" lean-forward="false" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -113,11 +122,12 @@
         <option value="$PROJECT_DIR$/lenstronomy_extensions/Scripts/run_sequence.py" />
         <option value="$PROJECT_DIR$/lenstronomy_extensions/Profiles/nfwT.py" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_job.sh" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="423" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -137,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +173,19 @@
             <path>
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -285,23 +301,29 @@
       <option name="project" value="LOCAL" />
       <updated>1520303850596</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="notebooks consistent with lenstronomy release 0.1.2">
+      <created>1520748133884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1520748133884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="423" width="1238" height="777" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23336072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27108434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27108434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2580645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2580645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -323,7 +345,8 @@
     <MESSAGE value="notebooks compatible with lenstronomy 0.1.0" />
     <MESSAGE value="updated notebooks and added a galfitting notebook" />
     <MESSAGE value="quasar-host decomposition added, small adjustments for lenstronomy 0.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="quasar-host decomposition added, small adjustments for lenstronomy 0.1.1" />
+    <MESSAGE value="notebooks consistent with lenstronomy release 0.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebooks consistent with lenstronomy release 0.1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -602,6 +625,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,10 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
+    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_job.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="124" column="3" lean-forward="false" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
           <folding />
         </state>
       </provider>
