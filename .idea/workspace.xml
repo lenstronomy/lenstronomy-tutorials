@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation">
-      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" afterDir="false" />
+    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterDir="false" />
@@ -14,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,10 +131,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="width" value="1212" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -334,14 +334,20 @@
       <option name="project" value="LOCAL" />
       <updated>1534955948018</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration">
+      <created>1539909353430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539909353430</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1234" height="777" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23272438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23248145" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
@@ -377,7 +383,8 @@
     <MESSAGE value="updated notebooks to lenstronomy version 0.2.8" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.0" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation" />
+    <MESSAGE value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.rst">
