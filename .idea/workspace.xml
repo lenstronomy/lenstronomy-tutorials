@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,10 +117,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1212" />
-    <option name="height" value="737" />
+    <option name="width" value="1859" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -341,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539909353430</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="compatible with version 0.4.3">
+      <created>1543381218881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543381218881</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,7 +377,8 @@
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.0" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
+    <MESSAGE value="compatible with version 0.4.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="compatible with version 0.4.3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.rst">
