@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="" />
+    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,26 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starting_guide.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simulation_api.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -117,10 +137,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1859" />
-    <option name="height" value="1177" />
+    <option name="width" value="1204" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -334,20 +354,42 @@
       <option name="project" value="LOCAL" />
       <updated>1543381218881</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated notebooks to lenstronomy release 0.6.0&#10;added simulation_api notebook">
+      <created>1551227995024</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551227995024</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first implementation of supernova variable modelling API">
+      <created>1551676773999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551676773999</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added section in substructure_challenge notebook about physical vs optical units, updated simulation_api notebook">
+      <created>1554143934720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554143934720</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1234" height="777" extended-state="6" />
+    <frame x="0" y="91" width="1729" height="1109" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23248145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28629977" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25735295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3577075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,16 +420,12 @@
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
     <MESSAGE value="compatible with version 0.4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="compatible with version 0.4.3" />
+    <MESSAGE value="updated notebooks to lenstronomy release 0.6.0&#10;added simulation_api notebook" />
+    <MESSAGE value="first implementation of supernova variable modelling API" />
+    <MESSAGE value="added section in substructure_challenge notebook about physical vs optical units, updated simulation_api notebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="added section in substructure_challenge notebook about physical vs optical units, updated simulation_api notebook" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_IDRE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -613,13 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lenstronomy/lenstronomy/SimulationAPI/simulations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../lenstronomy/lenstronomy/SimulationAPI/simulations.py" />
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/run_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -639,13 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -705,10 +730,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
