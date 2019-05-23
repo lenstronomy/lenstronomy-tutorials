@@ -25,8 +25,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="297">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,7 @@
       <file leaf-file-name="submit_IDRE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_IDRE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="315">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -137,10 +137,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1204" />
-    <option name="height" value="777" />
+    <option name="width" value="1435" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -375,21 +375,34 @@
       <option name="project" value="LOCAL" />
       <updated>1554143934720</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added catalogue modelling notebook, at master branch. pip version coming soon">
+      <created>1554695807248</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554695807248</updated>
+    </task>
+    <task id="LOCAL-00020" summary="catalogue modelling updated">
+      <created>1555182084632</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555182084632</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="91" width="1729" height="1109" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1237" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28629977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28618422" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3577075" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35735294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -423,7 +436,9 @@
     <MESSAGE value="updated notebooks to lenstronomy release 0.6.0&#10;added simulation_api notebook" />
     <MESSAGE value="first implementation of supernova variable modelling API" />
     <MESSAGE value="added section in substructure_challenge notebook about physical vs optical units, updated simulation_api notebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="added section in substructure_challenge notebook about physical vs optical units, updated simulation_api notebook" />
+    <MESSAGE value="added catalogue modelling notebook, at master branch. pip version coming soon" />
+    <MESSAGE value="catalogue modelling updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue modelling updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_IDRE.py">
@@ -697,7 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Scripts/submit_IDRE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -746,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="297">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
