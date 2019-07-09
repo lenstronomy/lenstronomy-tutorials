@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -134,11 +132,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1184" />
-    <option name="height" value="777" />
+    <option name="width" value="1859" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,51 +151,10 @@
               <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="CosmoSampling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Substructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lenstronomy_extensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lenstronomy_extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -421,20 +378,27 @@
       <option name="project" value="LOCAL" />
       <updated>1559004402337</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="consistent with lenstronomy release 0.9.0">
+      <created>1562432581727</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562432581727</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="98" width="1435" height="969" extended-state="0" />
+    <frame x="0" y="23" width="1237" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24611032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24588816" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27637616" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.275" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,7 +438,8 @@
     <MESSAGE value="added link to notebook in readme" />
     <MESSAGE value="added multi-source plane simulations in simulation_api notebook" />
     <MESSAGE value="consistent with lenstronomy release 0.8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="consistent with lenstronomy release 0.8.2" />
+    <MESSAGE value="consistent with lenstronomy release 0.9.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="consistent with lenstronomy release 0.9.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.rst">
@@ -717,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lenstronomy_extensions/Substructure/clump_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -777,10 +735,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
