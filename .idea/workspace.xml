@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +30,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="239">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -146,11 +139,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1184" />
-    <option name="height" value="777" />
+    <option name="width" value="1859" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -418,14 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562635796341</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Compatible with lenstronomy release 0.9.1">
+      <created>1563731587001</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563731587001</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1859" height="1177" extended-state="0" />
+    <frame x="0" y="23" width="1859" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24537541" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24483134" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
@@ -448,7 +447,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="notebooks compatible with lenstronomy version 0.0.4" />
     <MESSAGE value="updated to lenstronomy definitions" />
     <MESSAGE value="adopted to new lenstronomy version" />
     <MESSAGE value="startup gide for new lenstronomy release" />
@@ -473,7 +471,8 @@
     <MESSAGE value="consistent with lenstronomy release 0.8.2" />
     <MESSAGE value="consistent with lenstronomy release 0.9.0" />
     <MESSAGE value="SimulationAPI notebook updated with section of physical to angular lensing units conversions (compatible with latest master branch commit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimulationAPI notebook updated with section of physical to angular lensing units conversions (compatible with latest master branch commit)" />
+    <MESSAGE value="Compatible with lenstronomy release 0.9.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compatible with lenstronomy release 0.9.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -778,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="239">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
