@@ -23,8 +23,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="156" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -132,11 +132,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="247" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1398" />
-    <option name="height" value="996" />
+    <option name="width" value="1236" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -425,21 +424,27 @@
       <option name="project" value="LOCAL" />
       <updated>1565647639846</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="notebooks compatible with lenstronomy version 0.9.2">
+      <created>1567116876387</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567116876387</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1859" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1236" height="777" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24483134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.275" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,7 +460,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="startup gide for new lenstronomy release" />
     <MESSAGE value="notebooks compatible with lenstronomy 0.1.0" />
     <MESSAGE value="updated notebooks and added a galfitting notebook" />
     <MESSAGE value="quasar-host decomposition added, small adjustments for lenstronomy 0.1.1" />
@@ -480,7 +484,8 @@
     <MESSAGE value="Compatible with lenstronomy release 0.9.1" />
     <MESSAGE value="added notebook with units, coordinate system and parameter definitions" />
     <MESSAGE value="added link to new notebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="added link to new notebook" />
+    <MESSAGE value="notebooks compatible with lenstronomy version 0.9.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebooks compatible with lenstronomy version 0.9.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -785,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="156" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
