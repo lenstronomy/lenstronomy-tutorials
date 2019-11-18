@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/cosmography forecast method with kinematics.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simple_ring.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/td_modeling_external_lens_likelihood.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lens_equation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" afterDir="false" />
@@ -42,8 +44,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-249">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -162,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -457,21 +459,41 @@
       <option name="project" value="LOCAL" />
       <updated>1569433660027</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="notebooks compatible with lenstronomy version 1.1.0">
+      <created>1573068270898</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1573068270898</updated>
+    </task>
+    <task id="LOCAL-00033" summary="quad model notebook updated for better documentation of image amplitude constraints">
+      <created>1573324270896</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573324270896</updated>
+    </task>
+    <task id="LOCAL-00034" summary="quad model with prior description added">
+      <created>1573327692602</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1573327692602</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1236" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27108434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.275" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.275" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,9 +509,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated notebooks and added a galfitting notebook" />
-    <MESSAGE value="quasar-host decomposition added, small adjustments for lenstronomy 0.1.1" />
-    <MESSAGE value="notebooks consistent with lenstronomy release 0.1.2" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.2.2" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.2.8" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.0" />
@@ -512,7 +531,10 @@
     <MESSAGE value="added link to new notebook" />
     <MESSAGE value="notebooks compatible with lenstronomy version 0.9.2" />
     <MESSAGE value="notebooks compatible with lenstronomy version 0.9.3 (upcoming version)" />
-    <option name="LAST_COMMIT_MESSAGE" value="notebooks compatible with lenstronomy version 0.9.3 (upcoming version)" />
+    <MESSAGE value="notebooks compatible with lenstronomy version 1.1.0" />
+    <MESSAGE value="quad model notebook updated for better documentation of image amplitude constraints" />
+    <MESSAGE value="quad model with prior description added" />
+    <option name="LAST_COMMIT_MESSAGE" value="quad model with prior description added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -675,13 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lenstronomy/lenstronomy/Analysis/lens_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../lenstronomy/lenstronomy/Analysis/lens_analysis.py" />
     <entry file="file://$PROJECT_DIR$/../lenstronomy/lenstronomy/ImSim/image_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -817,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="-249">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
