@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa6a04cc-7f9d-4643-8e59-30b08c52eb63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/cosmography forecast method with kinematics.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simple_ring.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/td_modeling_external_lens_likelihood.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/EinsteinRingShear_simulations.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/catalogue modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/double_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/galfitting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/lenstronomy_numerics.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quad_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/quasar-host decomposition.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/shapelet_source_modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/simulation_api.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/starting_guide.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_mock_production.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/substructure_challenge_simple.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography psf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/time-delay cosmography.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/units_coordinates_parameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenstronomy_extensions/Notebooks/units_coordinates_parameters.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +25,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -164,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -480,7 +461,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573327692602</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="notebooks compatible with lenstronomy v 1.2.0, notebooks added">
+      <created>1574099485330</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574099485330</updated>
+    </task>
+    <task id="LOCAL-00036" summary="updated two notebooks for better documentation and examples">
+      <created>1574795046276</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574795046276</updated>
+    </task>
+    <task id="LOCAL-00037" summary="lenstronomy version 1.2.3 compatible, added notebook on cosmological parameter sampling">
+      <created>1576768349859</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1576768349859</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,9 +511,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated notebooks to lenstronomy version 0.2.2" />
-    <MESSAGE value="updated notebooks to lenstronomy version 0.2.8" />
-    <MESSAGE value="updated notebooks to lenstronomy version 0.3.0" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.3.3&#10;added notebook for mock data generation" />
     <MESSAGE value="updated notebooks to lenstronomy version 0.4.1&#10;added notebook for psf iteration" />
     <MESSAGE value="compatible with version 0.4.3" />
@@ -534,7 +533,10 @@
     <MESSAGE value="notebooks compatible with lenstronomy version 1.1.0" />
     <MESSAGE value="quad model notebook updated for better documentation of image amplitude constraints" />
     <MESSAGE value="quad model with prior description added" />
-    <option name="LAST_COMMIT_MESSAGE" value="quad model with prior description added" />
+    <MESSAGE value="notebooks compatible with lenstronomy v 1.2.0, notebooks added" />
+    <MESSAGE value="updated two notebooks for better documentation and examples" />
+    <MESSAGE value="lenstronomy version 1.2.3 compatible, added notebook on cosmological parameter sampling" />
+    <option name="LAST_COMMIT_MESSAGE" value="lenstronomy version 1.2.3 compatible, added notebook on cosmological parameter sampling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -833,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
