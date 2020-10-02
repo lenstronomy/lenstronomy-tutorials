@@ -1,5 +1,5 @@
 =============================
-lenstronomy_extensions
+lenstronomy extensions
 =============================
 
 
