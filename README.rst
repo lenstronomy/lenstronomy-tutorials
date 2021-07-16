@@ -5,7 +5,7 @@ lenstronomy extensions
 
 Deploys lenstronomy applications, examples and analysis scripts for lens modelling
 
-Acompanies lenstronomy release version 1.8.0. ``lenstronomy`` is available through the pypi packaging index:
+Acompanies lenstronomy release version 1.9.0. ``lenstronomy`` is available through the pypi packaging index:
 >>> pip install lenstronomy --user
 If you are using the GitHub branch of ``lenstronomy``, you may be a bit ahead of the notebooks.
 Get in touch with Simon Birrer (sibirrer@gmail.com) if you encounter problems.
@@ -66,11 +66,12 @@ We provide some examples where a real galaxy has been lensed and then been recon
 * `Extremely large telescope quality data with a clump hidden in the data <http://www.astro.ucla.edu/~sibirrer/video/TMT_high_res_clump_reconstruct.mp4>`_
 
 
-
 Attribution
 -----------
-The design concept of ``lenstronomy`` are reported in
-`Birrer & Amara 2018 <https://arxiv.org/abs/1803.09746v1>`_. Please cite this paper whenever you publish
-results that made use of ``lenstronomy``. Please also cite `Birrer et al 2015 <http://adsabs.harvard.edu/abs/2015ApJ...813..102B>`_
-when you make use of the ``lenstronomy`` work-flow or the Shapelet source reconstruction. Please make sure to cite also
-the relevant work that was implemented in ``lenstronomy``, as described in the release paper.
+The design concept of ``lenstronomy`` is reported by `Birrer & Amara 2018 <https://arxiv.org/abs/1803.09746v1>`_.
+The current JOSS software publication is presented by `Birrer et al. 2021 <https://joss.theoj.org/papers/10.21105/joss.03283>`_.
+Please cite these two publications when you use lenstronomy in a publication and link to `https://github.com/sibirrer/lenstronomy <https://github.com/sibirrer/lenstronomy>`_.
+Please also cite `Birrer et al 2015 <http://adsabs.harvard.edu/abs/2015ApJ...813..102B>`_
+when you make use of the ``lenstronomy`` work-flow or the Shapelet source reconstruction and make sure to cite also
+the relevant work that was implemented in ``lenstronomy``, as described in the release paper and the documentation.
+Don't hesitate to reach out to the developers if you have questions!
