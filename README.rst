@@ -1,6 +1,6 @@
-=============================
+======================
 lenstronomy extensions
-=============================
+======================
 
 
 Deploys lenstronomy applications, examples and analysis scripts for lens modelling
@@ -10,6 +10,9 @@ Accompanies lenstronomy release version 1.10.4. ``lenstronomy`` is available thr
 If you are using the GitHub branch of ``lenstronomy``, you may be a bit ahead of the notebooks.
 Get in touch with Simon Birrer (sibirrer@gmail.com) if you encounter problems.
 
+This repository is outdated and we refer to the `lenstronomy-tutorials <https://github.com/lenstronomy/lenstronomy-tutorials>`_
+for the latest version of the tutorials and notebooks.
+
 
 
 
@@ -17,7 +20,7 @@ Example notebooks
 -----------------
 
 We have made an extension module available here.
-You can find simple examle notebooks for various cases.
+You can find simple example notebooks for various cases.
 
 * `Units, coordinate system and parameter definitions in lenstronomy <https://github.com/sibirrer/lenstronomy_extensions/blob/main/lenstronomy_extensions/Notebooks/units_coordinates_parameters.ipynb>`_
 * `FITS handling and extracting needed information from the data prior to modeling <https://github.com/sibirrer/lenstronomy_extensions/blob/main/lenstronomy_extensions/Notebooks/fits_handling.ipynb>`_
