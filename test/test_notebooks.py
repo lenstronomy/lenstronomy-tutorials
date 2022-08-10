@@ -7,7 +7,7 @@ import nbformat
 dir = os.path.dirname(__file__)
 path_list = os.path.split(dir)
 extension_path = path_list[0]
-notebook_path = os.path.join(extension_path, 'lenstronomy_extensions/Notebooks')
+notebook_path = os.path.join(extension_path, 'Notebooks')
 
 
 def _notebook_run(path):
@@ -38,7 +38,6 @@ def test_ipynb_cosmic_shear_Einstein_rings():
     path = 'EinsteinRingShear_simulations.ipynb'
     nb, errors = _notebook_run(path)
     assert errors == []
-
 
 
 if __name__ == '__main__':
