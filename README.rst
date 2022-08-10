@@ -5,6 +5,9 @@ lenstronomy tutorial notebooks
 In this repository you can find a variety of notebooks with tutorials on how to use lenstronomy
 as well as more advanced and specific example use cases.
 
+If you are new to gravitational lensing, check also out the `mini lecture series <https://github.com/sibirrer/strong_lensing_lectures>`_ giving an introduction to gravitational lensing
+with interactive Jupyter notebooks in the cloud.
+
 
 Requirements
 ------------
