@@ -95,6 +95,6 @@ tables:
       redshift: $red.z
       cosmology: $cosmology
     ellipticity: !skypy.galaxies.morphology.beta_ellipticity
-      e_ratio: 0.45
-      e_sum: 3.5
+      e_ratio: 0.2
+      e_sum: 7
       size: !len [$red.z]
