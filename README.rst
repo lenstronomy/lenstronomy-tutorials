@@ -5,7 +5,10 @@ lenstronomy tutorial notebooks
 In this repository you can find a variety of notebooks with tutorials on how to use lenstronomy
 as well as more advanced and specific example use cases.
 
-
+Index
+-----
+Lens modeling
+ - `Modeling a simple Einstein ring<link URL>`_
 Requirements
 ------------
 The notebooks require lenstronomy release version 1.10.4.
