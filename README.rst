@@ -7,8 +7,37 @@ as well as more advanced and specific example use cases.
 
 Index
 -----
+Getting started
+ - `Starting guide <s>`_
+ - `Units, coordiante system and parameter definitions <s>`_
+ - `Handling FITS files <s>`_
 Lens modeling
- - `Modeling a simple Einstein ring<link URL>`_
+ - `Modeling a simple Einstein ring <URL>`_
+ - `Modeling a doubly imaged quasar <URL>`_
+ - `Modeling a quadruply imaged quasar <URL>`_
+ - `Modling multiple bands simultaneously <URL>`_
+ - `Source reconstruction with shapelets <URL>`_
+ - `Modeling of catalogue data <URL>`_
+ - `Cosmic shear with Einstein ring simulations <URL>`_
+Numerics
+ - `Solving lens equation <s>`_
+ - `Lenstronomy numerics <s>`_
+Simulations
+ - `Simulation API <s>`_
+ - `Skypy meets Lenstronomy <s>`_
+Galaxies
+ - `Fitting galaxy light profile (like Galfit) <s>`_
+ - `Quasar-host decomposition <s>`_
+Dark matter substructure
+ - `Substructure challenge - a simple example <s>`_
+ - `Substructure Challenge - Mock production notebook <s>`_
+Time-delay cosmography
+ - `Time delay-cosmography simulations <s>`_
+ - `Time delay-cosmography with uncertain PSF <s>`_
+ - `Sampling of catalogue data with external information <s>`_
+ - `Cosmology sampling of cosmographic posteriors <s>`_
+ - `Cosmographic uncertainty estimation and forecasting <s>`_
+
 Requirements
 ------------
 The notebooks require lenstronomy release version 1.10.4.
