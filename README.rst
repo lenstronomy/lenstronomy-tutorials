@@ -13,12 +13,12 @@ Index
 Getting started
  - `Starting guide <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/starting_guide.ipynb>`_
  - `Units, coordiante system and parameter definitions <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/units_coordinates_parameters_definitions.ipynb>`_
- - `Handling FITS files <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/fits_handling_and_extracting_needed_information_from_the_data.ipynb>`_
+ - `Handling FITS files and extracting needed information from the data <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/fits_handling_and_extracting_needed_information_from_the_data.ipynb>`_
 Lens modeling
  - `Modeling a simple Einstein ring <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modeling_a_simple_Einstein_ring.ipynb>`_
  - `Modeling a doubly imaged quasar <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modeling_a_doubly_imaged_quasar.ipynb>`_
  - `Modeling a quadruply imaged quasar <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modeling_a_quadruply_imaged_quasar.ipynb>`_
- - `Modling multiple bands simultaneously <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modeling_multiple_bands_simultaneously.ipynb>`_
+ - `Modeling multiple bands simultaneously <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modeling_multiple_bands_simultaneously.ipynb>`_
  - `Source reconstruction with shapelets <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/source_reconstruction_with_shapelets.ipynb>`_
  - `Modeling of catalogue data <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modelling_of_catalogue_data.ipynb>`_
  - `Cosmic shear with Einstein ring simulations <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/cosmic_shear_with_Einstein_ring_simulations.ipynb>`_
@@ -30,10 +30,10 @@ Simulations
  - `Skypy meets Lenstronomy <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/skypy_meets_lenstronomy.ipynb>`_
 Galaxy light fitting
  - `Fitting galaxy light profile (like Galfit) <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/galfitting_with_lenstronomy.ipynb>`_
- - `Quasar-host decomposition <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/quasar_host_galaxy_decomposition.ipynb>`_
+ - `Quasar-host galaxy decomposition <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/quasar_host_galaxy_decomposition.ipynb>`_
 Dark matter substructure
  - `Substructure challenge - a simple example <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/DMSubstructure/substructure_challenge_simple_example.ipynb>`_
- - `Substructure Challenge - Mock production notebook <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/DMSubstructure/substructure_challenge_mock_production.ipynb>`_
+ - `Substructure challenge - Mock production notebook <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/DMSubstructure/substructure_challenge_mock_production.ipynb>`_
 Time-delay cosmography
  - `Time delay-cosmography simulations <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/time_delay_cosmography_simulations.ipynb>`_
  - `Time delay-cosmography with uncertain PSF <Time delay-cosmography with uncertain PSF>`_
