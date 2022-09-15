@@ -22,6 +22,9 @@ Lens modeling
  - `Source reconstruction with shapelets <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/source_reconstruction_with_shapelets.ipynb>`_
  - `Modeling of catalogue data <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/modelling_of_catalogue_data.ipynb>`_
  - `Cosmic shear with Einstein ring simulations <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/LensModeling/cosmic_shear_with_Einstein_ring_simulations.ipynb>`_
+Line-of-sight effects
+ - Notebook One
+ - Notebook Two
 Numerics
  - `Solving lens equation <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Numerics/solving_lens_equation_and_computing_flux_ratios.ipynb>`_
  - `Lenstronomy numerics <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Numerics/lenstronomy_numerics.ipynb>`_
