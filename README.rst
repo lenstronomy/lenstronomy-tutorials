@@ -12,8 +12,10 @@ Index
 -----
 Getting started
  - `Starting guide <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/starting_guide.ipynb>`_
+
 .. image:: https://colab.research.google.com/assets/colab-badge.svg
    :target: https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/starting_guide.ipynb
+
  - `Units, coordinate system and parameter definitions <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/units_coordinates_parameters_definitions.ipynb>`_
  - `Handling FITS files and extracting needed information from the data <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/GettingStarted/fits_handling_and_extracting_needed_information_from_the_data.ipynb>`_
 Lens modeling
