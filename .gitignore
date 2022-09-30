@@ -5,6 +5,7 @@
 .DS_store
 *.nbc
 *.nbi
+.ipynb_checkpoints
 
 # C extensions
 *.so
