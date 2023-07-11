@@ -30,6 +30,8 @@ Numerics
 Simulations
  - `Simulation API <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/simulation_api.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/simulation_api.ipynb>`_
  - `Skypy meets Lenstronomy <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/skypy_meets_lenstronomy.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/skypy_meets_lenstronomy.ipynb>`_
+ - `Simulating different telescopes <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/simulating_different_telescopes.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Simulations/simulating_different_telescopes.ipynb>`_
+
 Galaxy light fitting
  - `Fitting galaxy light profile (like Galfit) <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/galfitting_with_lenstronomy.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/galfitting_with_lenstronomy.ipynb>`_
  - `Quasar-host galaxy decomposition <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/quasar_host_galaxy_decomposition.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Galaxies/quasar_host_galaxy_decomposition.ipynb>`_
@@ -42,10 +44,14 @@ Time-delay cosmography
  - `Sampling of catalogue data with external information <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/sampling_of_catalogue_data_with_external_information.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/sampling_of_catalogue_data_with_external_information.ipynb>`_
  - `Cosmology sampling of cosmographic posteriors <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/cosmology_sampling_of_cosmographic_posteriors.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/cosmology_sampling_of_cosmographic_posteriors.ipynb>`_
  - `Cosmographic uncertainty estimation and forecasting <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/cosmographic_uncertainty_estimation_and_forecasting_with_kinematics.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/TimeDelayCosmography/cosmographic_uncertainty_estimation_and_forecasting_with_kinematics.ipynb>`_
+Clusters
+ - `Working with galaxy clusters <https://github.com/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Clusters/clusters.ipynb>`_ `(google colab) <https://colab.research.google.com/github/lenstronomy/lenstronomy-tutorials/blob/main/Notebooks/Clusters/clusters.ipynb>`_
+
+
 
 Requirements
 ------------
-The notebooks require lenstronomy release version 1.10.4.
+The notebooks require lenstronomy release version 1.11.2.
 Instructions for installing lenstronomy and its dependencies can be found in the Installation_
 section of the lenstronomy documentation.
 
