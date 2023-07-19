@@ -8,6 +8,8 @@ as well as more advanced and specific example use cases.
 If you are new to gravitational lensing, check also out the `mini lecture series <https://github.com/sibirrer/strong_lensing_lectures>`_ giving an introduction to gravitational lensing
 with interactive Jupyter notebooks in the cloud.
 
+You can also check out this `self-work tutorial <https://github.com/ajshajib/lens_modeling_tutorial>`_ with assignments and Jupyter notebooks designed for undergraduate students to learn the basics of lens modeling with `lenstronomy`.
+
 Index
 -----
 Getting started
